@@ -1,12 +1,12 @@
 * {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Kumbh Sans";
 }
 
 main {
   width: 100%;
   height: 100vh;
-  background-color: rgb(83, 122, 250);
+  background-color: hsl(185, 75%, 39%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,7 +55,7 @@ main {
 }
 
 .name_age p:first-child {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .name_age p:last-child,
@@ -72,12 +72,12 @@ main {
 
 .number {
   padding: 25px 0;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .number p:last-child {
   font-size: 12px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 450px) {
